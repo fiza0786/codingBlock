@@ -2,7 +2,6 @@
 using namespace std;
 int main()
 {
-
     int arr[100];
     int n;
     cin>>n;
@@ -12,16 +11,13 @@ int main()
     int i;
     int key;
     cin>>key;
-    int(int i =0; i<=n-1;i++)
+    for(int i =0; i<=n-1;i++)
     {
         if (arr[i]==key)
         {
-            cout<<"key is present"<<endl;
+            cout<<"key"<<endl;
             break;
         }
     }
-    if(i==n)
-    {
-        cout<<"key is not present"<<endl;
-    }
+    
 }
